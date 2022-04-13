@@ -1,0 +1,51 @@
+version: '3'
+services:
+  nginx_proxy:
+    image: nginx
+    depends_on:
+      - flask
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - my-network
+
+  redis:
+    image: redis
+    networks:
+      - my-network
+    ports:
+      - "6379:6379"
+    command: redis-server --save 20 1 --loglevel warning --requirepass eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+    # volumes: 
+    #   - redis:/data
+    
+    # build:
+    #   context: ./
+    #   dockerfile: Dockerfile
+
+  flask:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    # tty:
+    #   true
+    volumes:
+      - ./:/code/
+    environment:
+      - FLASK_APP=/code/main.py
+      - REDIS_HOST= redis
+      - REDIS_PORT= 6379
+      - REDIS_PASSWORD= eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+    # command: flask run --host=0.0.0.0
+    ports:
+      - 5000:5000
+    depends_on:
+      - redis 
+    networks:
+      - my-network
+  
+    
+networks:
+  my-network:

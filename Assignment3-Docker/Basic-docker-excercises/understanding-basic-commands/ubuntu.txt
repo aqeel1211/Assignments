@@ -1,0 +1,6 @@
+
+1.docker ps : displays all the running containers
+2.docker ps -a : displays all the containers alongwith their statuses.
+3.docker images : displays all the images
+4.docker inspect : inspect a given container
+5.docker logs : displays logs of a container

@@ -1,0 +1,1 @@
+Daemonizing or Detaching a container means running it in background or detached mode.It is done when docker run command is used with (-d) flag

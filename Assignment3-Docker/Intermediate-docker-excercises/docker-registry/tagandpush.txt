@@ -1,0 +1,4 @@
+1) login by typing sudo docker login in the terminal.
+2) Go to dockerhub and create a new repository. In my case I created a repository aqeel1211/my-aws-cli
+3)I tagged it with the label:latest by typing the command sudo docker tag aqeel1211/my-aws-cli:latest my-aws-cli/dockerhub:latest 
+4) Finally push the image to your repo using the command sudo docker push aqeel1211/my-aws-cli:latest
