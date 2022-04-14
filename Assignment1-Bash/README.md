@@ -9,9 +9,9 @@ Create a bash script to find the following information.
 ---
 
 ## Solution
-Created functions to find each information.
-Created a user menu which would allow user to select any of the option from the given options with the -h (help) flag as optional.
-The -h flag shows how to operate the program
+- Created functions to find each information.
+- Created a user menu which would allow user to select any of the option from the given options with the -h (help) flag as optional.
+- The -h flag shows how to operate the program
 
 ## How to Run
 > Note: `cd Assignments/Assignment1-Bash` is required to follow further instructions 
@@ -26,3 +26,4 @@ Running the script with -h flag:
 
 ```sh
 bash a1.sh -h
+```
