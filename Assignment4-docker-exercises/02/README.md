@@ -23,5 +23,9 @@ Run it without setting the env variable and you should get this as output
     docker run testimage
 
     testhost
+    
+## Solution
+
+    Check Dockerfile for solution
 
 
