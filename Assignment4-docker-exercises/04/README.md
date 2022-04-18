@@ -16,6 +16,7 @@ When you run this you should get the following output
     1: /root/server.js
     2: abc
 
-//created server.js to print args and then run
+## Solution
+    created server.js to print args and then run
 
-//docker run -it --rm --workdir=/root -v $(pwd):/root/ node:6.9.1 node server.js abc
+    docker run -it --rm --workdir=/root -v $(pwd):/root/ node:6.9.1 node server.js abc
