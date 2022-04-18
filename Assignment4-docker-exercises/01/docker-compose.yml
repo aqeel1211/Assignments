@@ -1,0 +1,36 @@
+version: '3'
+services:
+  web:
+    image: node:6.9.1
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+    volumes:
+      - ./:/work
+    working_dir: /work
+    command: "npm start"
+    environment:
+      - MONGO_IP=db
+    
+
+  db:
+    image: mongo:3
+    ports:
+      - 27017:27017
+  
+  test:
+    image: curlimages/curl:7.82.0
+    command: curl http://web:3000
+    depends_on:
+      - web
+      - db
+    volumes:
+      - .:/work
+    restart: on-failure
+
+
+
+
+
+
