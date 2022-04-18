@@ -8,6 +8,7 @@ docker build -t testenv1 .
 
 docker run --rm -e ITEM=5 testenv1
 
-#changed ${ITEM;} to ${ITEM} in Dockerfile
+## Solution
+    changed ${ITEM;} to ${ITEM} in Dockerfile
 
 
