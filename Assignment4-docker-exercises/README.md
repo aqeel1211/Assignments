@@ -4,7 +4,7 @@ Have a look at the following table for tasks and their solutions
 ## Tasks and Solutions
 ---
 
-| Plugin | README |
+| Tasks | Solutions |
 | ------ | ------ |
 | Task 1 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/01 |
 | Task 2 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/02 |
