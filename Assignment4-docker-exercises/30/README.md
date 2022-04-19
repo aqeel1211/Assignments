@@ -5,8 +5,7 @@ Can you fix it?
 
     docker ps --format '{{.Command .Image}}'
 
-# Answer
+# Solution
 
-    docker ps --format '{{.Command}} {{.Image}}'
+    docker ps --format '{{.Command}}':'{{.Image}}'
 
-//docker ps --format '{{.Command}}':'{{.Image}}'
