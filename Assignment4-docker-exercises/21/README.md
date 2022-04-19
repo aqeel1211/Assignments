@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Can you create an image using only the scratch base image?
 
@@ -7,8 +7,10 @@ Can you create an image using only the scratch base image?
 Create a Dockerfile containing only the following (or some variation) and try to build it:
 
     FROM scratch
+    
+## Solution
 
-//if we build the dockerfile that has only FROM scratch layer, no image is generated
+If we build the dockerfile that has only FROM scratch layer, no image is generated
 
 
 
