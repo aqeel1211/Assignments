@@ -7,10 +7,10 @@ tar commands look like the following:
     list tar archive contents - tar tvf archive
     extract tar archive contents - tar xvf archive
 
-## Run instructions
+## Solution
 
 Extract each of the layers in an alpine image.
 
 
-tar xvf alpineimage.tar
+    tar xvf alpineimage.tar
 
