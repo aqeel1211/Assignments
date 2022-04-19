@@ -13,4 +13,6 @@ Try the following. Why does the first one fail and the second one work?
     $ docker create -v /tmp --name data ubuntu:14.04
     dca082c815b01c4cf4c7304a34374c222b6fd2cfd4309e02ee908287562b2711
 
-//Both commands are working fine
+## Solution
+
+Both commands are working fine
