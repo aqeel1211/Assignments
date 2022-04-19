@@ -11,7 +11,7 @@ The sed command looks like this:
 
     sed -n 's/this/that/p'
 
-## Run instructions
+## Solution
 
 
-//docker run -i alpine echo "change this word to" | docker run -i alpine sed -n 's/this/that/p'
+    docker run -i alpine echo "change this word to" | docker run -i alpine sed -n 's/this/that/p'
