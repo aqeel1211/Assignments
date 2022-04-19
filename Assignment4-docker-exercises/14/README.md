@@ -12,16 +12,24 @@ Now try this
 
     docker inspect testthing
 
+## Solution
 Did you get the output that you expected?
-//No
+
+    No
 Which resource did you get the output for?
-//Got output from every resource named testthing
+
+    Got output from every resource named testthing
 How can you get the metadata for exactly what you want?
-//Being specific about the type of resource
-//For volume metadeta:
-//docker volume inspect testthing
-//For image metadeta:
-//docker image inspect testthing
-//For network metadeta:
-//docker network inspect testthing
+
+    Being specific about the type of resource
+
+For volume metadeta:
+
+    docker volume inspect testthing
+For image metadeta:
+
+    docker image inspect testthing
+For network metadeta:
+
+    docker network inspect testthing
 
