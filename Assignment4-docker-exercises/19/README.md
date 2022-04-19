@@ -13,5 +13,8 @@ You can set the timezone in Alpine like this
     cp /usr/share/zoneinfo/Europe/Brussels /etc/localtime
     echo "Europe/Brussels" >  /etc/timezone
 
-//Created Dockerfile
-//docker run <imageID>
+## Solution
+
+Create a Dockerfile and run the following command
+
+    docker run <imageID>
