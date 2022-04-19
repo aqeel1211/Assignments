@@ -6,7 +6,7 @@ You can demonstrate this to yourself comparing docker images from inside the con
 
 Replace the '???' with the correct way to do this.
 
-## Run instructions
+## Solution
 
 First check the images on your host
 
@@ -14,7 +14,7 @@ First check the images on your host
 
 Next run a shell in a docker container but include the docker socket as a volume
 
-//docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock docker sh
+    docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock docker sh
 
 Now from inside the container check the images and you should see the same list
 
