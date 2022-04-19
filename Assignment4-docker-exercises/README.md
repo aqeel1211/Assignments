@@ -4,6 +4,11 @@ Have a look at the following table for tasks and their solutions
 ## Tasks and Solutions
 ---
 
+# Assignment4-Docker-Excercises
+Have a look at the following table for tasks and their solutions
+## Tasks and Solutions
+---
+
 | Tasks | Solutions |
 | ------ | ------ |
 | Task 1 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/01 |
@@ -14,28 +19,28 @@ Have a look at the following table for tasks and their solutions
 | Task 6 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/06 |
 | Task 7 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/07 |
 | Task 8 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/08 |
-| Task 9 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/09 |
-| Task 10 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/10 |
+| Task 9 | - |
+| Task 10 | - |
 | Task 11 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/11 |
 | Task 12 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/12 |
-| Task 13 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/13 |
+| Task 13 | - |
 | Task 14 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/14 |
 | Task 15 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/15 |
 | Task 16 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/16 |
 | Task 17 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/17 |
 | Task 18 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/18 |
 | Task 19 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/19 |
-| Task 20 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/20 |
+| Task 20 | - |
 | Task 21 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/21 |
 | Task 22 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/22 |
-| Task 23 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/23 |
+| Task 23 | - |
 | Task 24 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/24 |
 | Task 25 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/25 |
 | Task 26 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/26 |
 | Task 29 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/29 |
 | Task 30 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/30 |
-| Task 31 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/31 |
-| Task 32 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/32 |
+| Task 31 | - |
+| Task 32 | - |
 
 This is intended to help learn aspects of Docker by presenting a number of challenges or just facilitate some Q&A.
 .
