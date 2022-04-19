@@ -10,6 +10,8 @@ Did you know that you can include conditionals in format statements?
     docker run ubuntu date1
     docker run ubuntu date2
     docker run ubuntu date
+    
+## Solution
 
-//docker ps --filter status=exited | grep -v 'Exited (0)'
+    docker ps --filter status=exited | grep -v 'Exited (0)'
 
