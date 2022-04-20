@@ -13,6 +13,6 @@ What can you do to make them both run (there are at least a couple of ways)?
 
 ## Solution
 
-    change the alias of both images
+    change the name of both containers
     docker run -it --name test1 alpine:latest
     docker run -it --name test2 alpine:latest

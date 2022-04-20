@@ -15,7 +15,7 @@ Now try this
 ## Solution
 Did you get the output that you expected?
 
-    No
+    If we run docker inspect testthing,it will inpsect the container
 Which resource did you get the output for?
 
     Got output from every resource named testthing
