@@ -19,7 +19,7 @@ Have a look at the following table for tasks and their solutions
 | Task 6 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/06 |
 | Task 7 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/07 |
 | Task 8 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/08 |
-| Task 9 | - |
+| Task 9 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/09 |
 | Task 10 | - |
 | Task 11 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/11 |
 | Task 12 | https://github.com/aqeeleurus/Assignments/tree/master/Assignment4-docker-exercises/12 |
