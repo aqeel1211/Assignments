@@ -1,0 +1,138 @@
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Writing log to a file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:17 +0000 [info]: parsing config file is succeeded path=\"/fluentd/etc/fluent.conf\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:17 +0000 [info]: gem 'fluentd' version '1.14.0'\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:17 +0000 [error]: config error file=\"/fluentd/etc/fluent.conf\" error_class=Fluent::ConfigError error=\"Unknown parser plugin 'json# expects json because docker logs are in JSON format'. Run 'gem search -rd fluent-plugin' to find plugins\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:51 +0000 [info]: parsing config file is succeeded path=\"/fluentd/etc/fluent.conf\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:51 +0000 [info]: gem 'fluentd' version '1.14.0'\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:51 +0000 [info]: using configuration file: <ROOT>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  <source>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    @type tail\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    format json\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    read_from_head true\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    tag \"docker.log\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    path \"/fluentd/log/containers/*/*-json.log\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    pos_file \"/tmp/container-logs.pos\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    <parse>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      @type json\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      unmatched_lines \n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    </parse>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  </source>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  <match docker.log>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    @type file\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    path \"/output/docker.log\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    <buffer time>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      path \"/output/docker.log\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    </buffer>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  </match>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"</ROOT>\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:51 +0000 [info]: starting fluentd-1.14.0 pid=9 ruby=\"2.7.5\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:51 +0000 [info]: spawn command to main:  cmdline=[\"/usr/bin/ruby\", \"-Eascii-8bit:ascii-8bit\", \"/usr/bin/fluentd\", \"--config\", \"/fluentd/etc/fluent.conf\", \"--plugin\", \"/fluentd/plugins\", \"--under-supervisor\"]\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: adding match pattern=\"docker.log\" type=\"file\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: adding source type=\"tail\"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 starting fluentd worker pid=18 ppid=9 worker=0\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 following tail of /fluentd/log/containers/721739d4a535c1021b2e76321b9b01d30cb1fbacb39dbb87cacfaf6d03a39182/721739d4a535c1021b2e76321b9b01d30cb1fbacb39dbb87cacfaf6d03a39182-json.log\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 following tail of /fluentd/log/containers/342184d400524eb3cccd12f3946565ad1c67e91ae54266361bb219d38510cda9/342184d400524eb3cccd12f3946565ad1c67e91ae54266361bb219d38510cda9-json.log\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 19 Apr 2022 20:12:55.449 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 19 Apr 2022 20:12:55.449 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=1, just started\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 19 Apr 2022 20:12:55.449 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:12:55.452 * monotonic clock: POSIX clock_gettime\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:12:55.453 * Running mode=standalone, port=6379.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:12:55.454 # Server initialized\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:12:55.454 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:12:55.455 * Ready to accept connections\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:signal-handler (1650399193) Received SIGINT scheduling shutdown...\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:13.243 # User requested shutdown...\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:13.243 * Saving the final RDB snapshot before exiting.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:13.246 * DB saved on disk\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:13.247 # Redis is now ready to exit, bye bye...\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 19 Apr 2022 20:13:18.252 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 19 Apr 2022 20:13:18.252 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=1, just started\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 19 Apr 2022 20:13:18.252 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:18.254 * monotonic clock: POSIX clock_gettime\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                _._                                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"           _.-``__ ''-._                                             \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      _.-``    `.  `_.  ''-._           Redis 6.2.6 (00000000/0) 64 bit\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  .-`` .-```.  ```\\/    _.,_ ''-._                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" (    '      ,       .-`  | `,    )     Running in standalone mode\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |    `-._   `._    /     _.-'    |     PID: 1\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  `-._    `-._  `-./  _.-'    _.-'                                   \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |    `-._`-._        _.-'_.-'    |           https://redis.io       \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |    `-._`-._        _.-'_.-'    |                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      `-._    `-.__.-'    _.-'                                       \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"          `-._        _.-'                                           \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"              `-.__.-'                                               \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:18.255 # Server initialized\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:18.255 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 19 Apr 2022 20:13:18.255 * Ready to accept connections\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"^C1:signal-handler (1650431659) Received SIGINT scheduling shutdown...\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:20.015 # User requested shutdown...\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:20.016 * Saving the final RDB snapshot before exiting.\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:20.019 * DB saved on disk\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:20.019 # Redis is now ready to exit, bye bye...\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Hello from Docker!\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"This message shows that your installation appears to be working correctly.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"To generate this message, Docker took the following steps:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 1. The Docker client contacted the Docker daemon.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 2. The Docker daemon pulled the \"hello-world\" image from the Docker Hub.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    (amd64)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 3. The Docker daemon created a new container from that image which runs the\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    executable that produces the output you are currently reading.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 4. The Docker daemon streamed that output to the Docker client, which sent it\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    to your terminal.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"To try something more ambitious, you can run an Ubuntu container with:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" $ docker run -it ubuntu bash\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Share images, automate workflows, and more with a free Docker ID:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" https://hub.docker.com/\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"For more examples and ideas, visit:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" https://docs.docker.com/get-started/\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 20 Apr 2022 05:14:29.931 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 20 Apr 2022 05:14:29.931 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=1, just started\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:C 20 Apr 2022 05:14:29.931 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:29.932 * monotonic clock: POSIX clock_gettime\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"                _._                                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"           _.-``__ ''-._                                             \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      _.-``    `.  `_.  ''-._           Redis 6.2.6 (00000000/0) 64 bit\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  .-`` .-```.  ```\\/    _.,_ ''-._                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" (    '      ,       .-`  | `,    )     Running in standalone mode\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |    `-._   `._    /     _.-'    |     PID: 1\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  `-._    `-._  `-./  _.-'    _.-'                                   \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |    `-._`-._        _.-'_.-'    |           https://redis.io       \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |`-._`-._    `-.__.-'    _.-'_.-'|                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" |    `-._`-._        _.-'_.-'    |                                  \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"  `-._    `-._`-.__.-'_.-'    _.-'                                   \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"      `-._    `-.__.-'    _.-'                                       \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"          `-._        _.-'                                           \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"              `-.__.-'                                               \r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:29.933 # Server initialized\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:29.933 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:14:29.934 * Ready to accept connections\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"^C1:signal-handler (1650433282) Received SIGINT scheduling shutdown...\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:41:22.172 # User requested shutdown...\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:41:22.172 * Saving the final RDB snapshot before exiting.\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:41:22.177 * DB saved on disk\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"1:M 20 Apr 2022 05:41:22.177 # Redis is now ready to exit, bye bye...\r\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 following tail of /fluentd/log/containers/37a6114db3d0e5e7fce4241a5a414d4e656e205702cb066aae5b5cf23187d3b3/37a6114db3d0e5e7fce4241a5a414d4e656e205702cb066aae5b5cf23187d3b3-json.log\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 following tail of /fluentd/log/containers/05c36a21085b88810a348b7c8ffeb7e2ba3783eb29a44f6a651ed787a7fff093/05c36a21085b88810a348b7c8ffeb7e2ba3783eb29a44f6a651ed787a7fff093-json.log\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 following tail of /fluentd/log/containers/2cae4595c24bfcd625a9bd87038e3406607f30e4f591d68a17cecce91c9653db/2cae4595c24bfcd625a9bd87038e3406607f30e4f591d68a17cecce91c9653db-json.log\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 following tail of /fluentd/log/containers/7f3566336b5796ea3ebc30605104360f38c1b3ff287ba0ce4858d79d817ec56a/7f3566336b5796ea3ebc30605104360f38c1b3ff287ba0ce4858d79d817ec56a-json.log\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:50:52 +0000 [info]: #0 fluentd worker is now running worker=0\n","stream":"stdout"}

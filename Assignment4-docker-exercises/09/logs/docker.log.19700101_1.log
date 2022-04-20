@@ -1,0 +1,23 @@
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Hello from Docker!\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"This message shows that your installation appears to be working correctly.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"To generate this message, Docker took the following steps:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 1. The Docker client contacted the Docker daemon.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 2. The Docker daemon pulled the \"hello-world\" image from the Docker Hub.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    (amd64)\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 3. The Docker daemon created a new container from that image which runs the\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    executable that produces the output you are currently reading.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" 4. The Docker daemon streamed that output to the Docker client, which sent it\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"    to your terminal.\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"To try something more ambitious, you can run an Ubuntu container with:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" $ docker run -it ubuntu bash\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"Share images, automate workflows, and more with a free Docker ID:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" https://hub.docker.com/\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"For more examples and ideas, visit:\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":" https://docs.docker.com/get-started/\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"\n","stream":"stdout"}
+1970-01-01T00:33:42+00:00	docker.log	{"log":"2022-04-20 05:51:52 +0000 [info]: #0 following tail of /fluentd/log/containers/f86c8751245a51d4d926309c0861e45bb640d57addac3263481c818f291334a1/f86c8751245a51d4d926309c0861e45bb640d57addac3263481c818f291334a1-json.log\n","stream":"stdout"}
